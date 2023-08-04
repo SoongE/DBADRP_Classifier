@@ -92,8 +92,6 @@ Please install the requirements including pytorch for stable running. This code 
 pip install -r requirements.txt
 ```
 
----
-
 ### Single training
 
 Run on general train/valid dataset with single GPU for 100 epochs as following command. You can choose specific backbone and methods using `-` notation(`backbone=resnet` or `backbone=resnet-dbadrp`). For other configs and config structures, please check out the [configs folder](./configs).
@@ -102,8 +100,6 @@ Run on general train/valid dataset with single GPU for 100 epochs as following c
 python main.py dataset=asbo gpus=[0] train.epochs=100 backbone=resnet-dbadrp
 ```
 
----
-
 ### K-Fold training
 
 By default, we train using 5-fold cross validation and evaluated the model with average values. For 5-fold training, all you need to do is change a few commands for the dataset and execute file. 
@@ -111,8 +107,6 @@ By default, we train using 5-fold cross validation and evaluated the model with 
 ```bash
 python cross_validation_train.py dataset=asbo-k gpus=[0] backbone=resnet-dbadrp
 ```
-
----
 
 ### Inference
 
@@ -157,9 +151,10 @@ distort
 │       └── NORMAL #class
 └── splits
     └── asbo_k_classification.json
+    └── asbo_classification.json
 ```
 
-The `.json` files are constructed by `list` with 5 length, and each item of list is `dict`with keys: train, train_label, valid, valid_label.
+The `*k*.json` file is constructed by `list` with 5 length, and each item of list is `dict`with keys: train, train_label, valid, valid_label. On the other hand, a .json file without k is just a dict and has the same keys.
 
 ## LIcense
 
