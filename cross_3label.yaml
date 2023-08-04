@@ -1,0 +1,13 @@
+session_name: scratch-IO
+windows:
+  - window_name: window
+    layout: tiled
+    panes:
+      - pt cross_validation_train.py gpus=[0] backbone=efficientnet
+      - pt cross_validation_train.py gpus=[1] backbone=efficientnet-dba
+      - pt cross_validation_train.py gpus=[3] backbone=efficientnet-drp
+      - pt cross_validation_train.py gpus=[4] backbone=efficientnet-dbadrp
+      - pt cross_validation_train.py gpus=[5] backbone=densenet
+      - pt cross_validation_train.py gpus=[7] backbone=densenet-dba
+      - pt cross_validation_train.py gpus=[8] backbone=densenet-drp
+      - pt cross_validation_train.py gpus=[9] backbone=densenet-dbadrp

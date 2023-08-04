@@ -1,0 +1,17 @@
+epochs: 50
+batch_size: 3
+
+num_workers: 8
+seed: 1
+lr: 0.1
+lr_decay: 0.01
+weight_decay: 5e-4
+opt: SGD
+momentum: 0.9
+
+sched: cosine
+min_lr: 1e-5
+
+warmup_lr: 1e-6
+warmup_epochs: 5
+cooldown_epochs: 0

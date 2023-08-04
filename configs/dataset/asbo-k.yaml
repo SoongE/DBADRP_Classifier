@@ -1,0 +1,14 @@
+name: ASBO
+root: /data/intestinal_obstruction
+
+size: 224
+depth: 112
+resample: 2
+json_file: asbo_k_classification
+
+trainset_name: train
+validset_name: valid
+testset_name: test
+
+in_channel: 1
+num_class: 3
