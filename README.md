@@ -127,7 +127,7 @@ python gradcam.py
 
 ## Folder structure of dataset
 
-The data has three classes, **`HGSBO`**, **`LGSBO`** and **`NORMAL`**, which are located in the top-level folder. Each folder has folders separated by case series id, and each folder has a `.dcm` file containing CT images. The data splitting according to k-fold is stored in the `splits` folder as a `.json` file, and the corrupted data for the robustness test is organized under the `distort` folder with distory_type, intenstiy, and classes.
+The data has three classes, **`HGSBO`**, **`LGSBO`** and **`NORMAL`**, which are located in the top-level folder. The three classes have folders separated by case series id, and each folder has a `.dcm` file containing CT images. The data splitting according to k-fold is stored in the `splits` folder as a `.json` file, and the corrupted data for the robustness test is organized under the `distort` folder with distory_type, intenstiy, and classes.
 
 ```
 ./data
