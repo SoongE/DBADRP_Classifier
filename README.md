@@ -156,7 +156,7 @@ distort
 
 The `*k*.json` file is constructed by `list` with 5 length, and each item of list is `dict`with keys: train, train_label, valid, valid_label. On the other hand, a .json file without k is just a dict and has the same keys.
 
-## LIcense
+## License
 
 This repository is released under the Apache 2.0 license as found in the [LICENSE](./LICENSE) file.
 
