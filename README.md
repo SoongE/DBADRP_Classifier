@@ -143,18 +143,18 @@ The data has three classes, **`HGSBO`**, **`LGSBO`** and **`NORMAL`**, which are
 │   └── case_series_id
 |		└── 0001.dcm
 |		└── ...
-distort
-├── affine # dist_type
-│   └── 0 # intensity
-│       ├── HGSBO #class
-│       ├── LGSBO #class
-│       └── NORMAL #class
-└── splits
-    └── asbo_k_classification.json
-    └── asbo_classification.json
+├── splits
+|    └── asbo_k_classification.json
+|    └── asbo_classification.json
+└──distort
+   └──affine # dist_type
+       └── 0 # intensity
+           ├── HGSBO #class
+           ├── LGSBO #class
+           └── NORMAL #class
 ```
 
-The `*k*.json` file is constructed by `list` with 5 length, and each item of list is `dict`with keys: train, train_label, valid, valid_label. On the other hand, a .json file without k is just a dict and has the same keys.
+The `*k*.json` file is constructed by `list` with 5 length, and each item of list is `dict` with keys: train, train_label, valid, valid_label. On the other hand, a .json file without k is just a dict and has the same keys.
 
 ## License
 
