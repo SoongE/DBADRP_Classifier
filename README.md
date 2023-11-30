@@ -164,5 +164,13 @@ This repository is released under the Apache 2.0 license as found in the [LICENS
 
 If our project is helpful for your research, please consider citation:paperclip: and giving a star:star2: :
 
-***TBD***
-
+```
+@article{oh2023deep,
+  title={Deep learning using computed tomography to identify high-risk patients for acute small bowel obstruction: development and validation of a prediction model: A retrospective cohort study},
+  author={Oh, Seungmin and Ryu, Jongbin and Shin, Ho-Jung and Song, Jeong Ho and Son, Sang-Yong and Hur, Hoon and Han, Sang-Uk},
+  journal={International Journal of Surgery},
+  pages={10--1097},
+  year={2023},
+  publisher={LWW}
+}
+```
