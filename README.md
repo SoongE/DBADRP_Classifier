@@ -4,7 +4,7 @@ PyTorch implementation and pretrained models for DBA+DRP. For details, see the p
 
 ## Pre-trained models
 
-You can downlaod weights of the backbones used in our experiments. Detailed arguments and learning/assessment methods can be found in the [configs folder](./configs). The path of weights is in the top-level of the project folder(`./intestinal_obstruction/weights`).
+You can download the weights of the backbones used in our experiments. Detailed arguments and learning/assessment methods can be found in the [configs folder](./configs). The path of the weights is at the top level of the project folder(`DBADRP_Classifier/weights`).
 
 <table style="margin:auto;text-align:center">
     <tr>
@@ -19,65 +19,65 @@ You can downlaod weights of the backbones used in our experiments. Detailed argu
         <td>Naive</td>
         <td>66.15</td>
         <td>0.848 + 0.05</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/EbQ22Q7NQT1FnaQX6xRI0bABuOB0Y9AoW5wW7niLlcM29g?e=DlIcEj'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1bUIpTfOrkaelm5W4YkxVOgwclvq4Q9uH/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td>DBA+DRP</td>
         <td>70.26</td>
         <td>0.876 + 0.02</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/EYh1XbIYYbBBjmS3Lfdn494B_gbpJPQyo4w5djf8LRVHkg?e=r10PUK'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1kx2e_oEZ_fQG7f8TPmsdrAEooBsGxxZg/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td rowspan='2'> ResNext </td>
         <td>Naive</td>
         <td>68.46</td>
         <td>0.874 + 0.02</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/ERKW4EDIRiNLs9plr9ch4eYBWQAoMKwo-RLDzckvrKY3yQ?e=RczK4i'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1TPA-ohb-zUkcHcRnPY-BLKDA5KfAO5y6/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td>DBA+DRP</td>
         <td>66.41</td>
         <td>0.883 + 0.01</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/EU7z4aDcl7NDusWolN__l2oBxj68CCZjj-P-fBXrgowWWQ?e=YJWvuE'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/17WHRVqHg0tc1r9RBf_ZC-bUoE1AIdKAC/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td rowspan='2'> WideResNet </td>
         <td>Naive</td>
         <td>65.13</td>
         <td>0.861 + 0.02</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/EdDiTH1y8xNIlLUtL1h7uMABuoQHmhK8jZM4SwHMzNqiDQ?e=gYFcf0'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1I7OI5D8KbY3VmxJAvXFKIEaX4zVbdVYh/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td>DBA+DRP</td>
         <td>72.56</td>
         <td>0.896 + 0.01</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/EbRTVzIyMaxDpdO5U0wB-bsBs3gh_FUBo5abWtSeyKDV0g?e=39KMcb'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1LCwU1CIJ7YPunjucjKD5G-x2SaBDCUHY/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td rowspan='2'> DenseNet </td>
         <td>Naive</td>
         <td>75.12</td>
         <td>0.868 + 0.05</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/ERI-sdq-Ze5JjMo-0SYbLGEBdMbtufwq88Aj-AXGDOAZwQ'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1zGOdpWoN_5zDKzpnYaV0M4LrDFH9IelO/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td>DBA+DRP</td>
         <td>72.68</td>
         <td>0.873 + 0.07</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/Edz2ZUrnqflKuWikqU89E0ABA_a5Ee_e-XZvLayG9CjAlw'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1fBjgpFU0O0Cv1mLQuqQpNp2K0bFvwO2_/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td rowspan='2'> EfficientNet </td>
         <td>Naive</td>
         <td>71.22</td>
         <td>0.841 + 0.04</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/ERMGEqWzKpdCisrAeWmezdgBLdi533feseX3fE39bS6ASQ'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/13cznS_lRj2cj2UTIsosrOk-SVX9BjFDa/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr>
         <td>DBA+DRP</td>
         <td>71.71</td>
         <td>0.868 + 0.03</td>
-        <td><a href='https://ajouackr-my.sharepoint.com/:u:/g/personal/mangusn1_ajou_ac_kr/EcjnrRw6tbhOgYgNojisVBIBZZLGSmwBIAfUKKgxov_4-A'>Link</a></td>
+        <td><a href='https://drive.google.com/file/d/1PBezed77mQZJtxaAt4PHL34ykxLETJZ2/view?usp=drive_link'>Link</a></td>
     </tr>
     <tr></tr>
 </table>
