@@ -162,7 +162,7 @@ This repository is released under the Apache 2.0 license as found in the [LICENS
 
 ## Citation
 
-If our project is helpful for your research, please consider citation:paperclip: and giving a star:star2: :
+If our project is helpful for your research, please consider citation:paperclip: and giving a star ⭐
 
 ```
 @article{oh2023deep,
