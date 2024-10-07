@@ -1,6 +1,6 @@
 # Deep learning using computed tomography to identify high-risk patients for acute small bowel obstruction: development and validation of a prediction model
 
-PyTorch implementation and pretrained models for DBA+DRP. For details, see the paper: [Deep learning using computed tomography to identify high-risk patients for acute small bowel obstruction: development and validation of a prediction model](TBD)
+PyTorch implementation and pretrained models for DBA+DRP. For details, see the paper: [Deep learning using computed tomography to identify high-risk patients for acute small bowel obstruction: development and validation of a prediction model](https://journals.lww.com/international-journal-of-surgery/fulltext/2023/12000/deep_learning_using_computed_tomography_to.39.aspx)
 
 ## Pre-trained models
 
